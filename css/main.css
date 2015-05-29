@@ -11,8 +11,14 @@ h1 {
 }
 
 h1,
-p {
+p,
+ul {
   margin-bottom: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
 }
 
 a {
@@ -65,6 +71,24 @@ header p {
   }
 }
 
+.index h1 {
+  font-size: 1rem;
+  margin-top: 4rem;
+}
+
+.index li {
+  margin-top: 1rem;
+}
+
+.index li a {
+  font-size: 1.625rem;
+}
+
+.index .author {
+  float: right;
+  line-height: 2.54;
+}
+
 .info h1 {
   font-size: 2.625rem;
   margin-top: 4rem;
@@ -75,6 +99,20 @@ main section p {
 }
 
 .info p {
+  margin-top: 2rem;
+}
+
+.info .author {
+  margin-top: 0;
+  text-align: center;
+}
+
+.lipsum h1 {
+  font-size: 1.625rem;
+  margin-top: 4rem;
+}
+
+.lipsum p {
   margin-top: 2rem;
 }
 
