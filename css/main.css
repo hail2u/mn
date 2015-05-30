@@ -2,6 +2,8 @@ body {
   background-color: #fff;
   color: #444;
   font-family: Libre Baskerville, serif;
+  -webkit-font-feature-settings: "kern" 1, "liga" 1;
+  font-feature-settings: "kern" 1, "liga" 1;
   line-height: 1.563;
   margin: 0 0 2rem 0;
 }
