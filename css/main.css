@@ -92,13 +92,14 @@ header p {
 
 .index .author {
   display: block;
+  font-size: .8125rem;
   line-height: 1;
 }
 
 @media (min-width: 30rem) {
   .index .author {
     float: right;
-    line-height: 2.54;
+    line-height: 3.126;
   }
 }
 
